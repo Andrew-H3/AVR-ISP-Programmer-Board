@@ -1,2 +1,4 @@
 # AVR-ISP-Programmer-Board
-A small printed circuit board to make programming an ATmega328p microcontroller easy.
+## Purpose
+The purpose of this project is to create a small, easy to use printed circuit board for programming
+an ATmega328p microcontroller.
