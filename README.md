@@ -38,7 +38,7 @@ Figure 2 shows the circuit design. The design simply connects every pin to where
 *Figure 2: Circuit Schematic in Eeschema*
 
 ### Eeschema
-The circuit schematic was designed in Eeschema from the KiCad suite. The microcontroller socket is the ATMEGA328-PU model from the Digi-Key KiCad library available at [github.com/Digi-Key/digikey-kicad-library](https://github.com/Digi-Key/digikey-kicad-library). The power and programmer connector models are from the Connector_Generic library.
+The circuit schematic was designed in Eeschema from the KiCad suite. The microcontroller socket is the ATMEGA328-PU model from the Digi-Key KiCad library available at [github.com/Digi-Key/digikey-kicad-library](https://github.com/Digi-Key/digikey-kicad-library). The power and programmer connector models are from the Connector_Generic library. The netlist was exported for use in the PCB design.
 
 ## The PCB Design
 The PCB was designed in Pcbnew using the netlist exported by Eeschema. With the netlist imported, it was simply a matter of matching all of the nets. Because size is an important factor, objects were placed in an effort to maximize area effieciency. The size of each component was considered to ensure that everything would fit on the board, with some extra room to ensure fit and soldering ease.
