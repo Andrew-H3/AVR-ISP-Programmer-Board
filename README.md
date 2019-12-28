@@ -31,4 +31,7 @@ OSH Park will be used to manufacture the board.
 ## The Circuit Design
 The microcontroller requires power, so VCC (pin 7) and GND (pin 8) will be connected to the board power connector. To keep the microcontroller powered on, a pull-up resistor will be connected to RESET (pin 1). The pull-up resistor will pull RESET to VCC.
 
-The programmer requires six connections: VCC and GND of the microcontroller; RESET of the microcontroller; and finally MISO (pin 18), MOSI (pin 17), and SCK (pin 19) of the microcontroller. 
+The programmer requires six connections: VCC and GND of the microcontroller; RESET of the microcontroller; and finally MISO (pin 18), MOSI (pin 17), and SCK (pin 19) of the microcontroller.
+
+![Circuit Schematic](images/Figure2.png)
+*Figure 2: Circuit Schematic in Eeschema*
