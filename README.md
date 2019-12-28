@@ -29,9 +29,13 @@ Components will be ordered from Digi-Key, and can be found in the Bill of Materi
 OSH Park will be used to manufacture the board.
 
 ## The Circuit Design
-The microcontroller requires power, so VCC (pin 7) and GND (pin 8) will be connected to the board power connector. To keep the microcontroller powered on, a pull-up resistor will be connected to RESET (pin 1). The pull-up resistor will pull RESET to VCC.
+The microcontroller requires power, so VCC (pin 7) and GND (pin 8) will be connected to the board power connector. To keep the microcontroller powered on, a 10k pull-up resistor will be connected to RESET (pin 1). The pull-up resistor will pull RESET to VCC.
 
 The programmer requires six connections: VCC and GND of the microcontroller; RESET of the microcontroller; and finally MISO (pin 18), MOSI (pin 17), and SCK (pin 19) of the microcontroller.
 
+Figure 2 shows the circuit design. The design simply connects every pin to wherever it needs to be, as well as labels the input voltage and ground.
 ![Circuit Schematic](images/Figure2.png)
 *Figure 2: Circuit Schematic in Eeschema*
+
+### Eeschema
+The circuit schematic was designed in Eeschema from the KiCad suite. The microcontroller socket is the ATMEGA328-PU model from the digikey KiCad library available at [github.com/Digi-Key/digikey-kicad-library](https://github.com/Digi-Key/digikey-kicad-library). The power and programmer connector models are from the Connector_Generic library.
