@@ -4,6 +4,7 @@ The purpose of this project is to create a small, easy to use printed circuit bo
 an ATmega328p microcontroller.
 
 ![The PCB next to the microcontroller](images/Figure1.jpg)
+*Figure 1: The Final Product*
 ## Requirements
 The board must meet the following requirements
 * Have a socket allowing for the placement and removal of the microcontroller
