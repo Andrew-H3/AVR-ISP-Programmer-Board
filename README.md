@@ -38,4 +38,4 @@ Figure 2 shows the circuit design. The design simply connects every pin to where
 *Figure 2: Circuit Schematic in Eeschema*
 
 ### Eeschema
-The circuit schematic was designed in Eeschema from the KiCad suite. The microcontroller socket is the ATMEGA328-PU model from the digikey KiCad library available at [github.com/Digi-Key/digikey-kicad-library](https://github.com/Digi-Key/digikey-kicad-library). The power and programmer connector models are from the Connector_Generic library.
+The circuit schematic was designed in Eeschema from the KiCad suite. The microcontroller socket is the ATMEGA328-PU model from the Digi-Key KiCad library available at [github.com/Digi-Key/digikey-kicad-library](https://github.com/Digi-Key/digikey-kicad-library). The power and programmer connector models are from the Connector_Generic library.
