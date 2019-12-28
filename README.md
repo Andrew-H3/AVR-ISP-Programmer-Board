@@ -42,3 +42,6 @@ The circuit schematic was designed in Eeschema from the KiCad suite. The microco
 
 ## The PCB Design
 The PCB was designed in Pcbnew using the netlist exported by Eeschema. With the netlist imported, it was simply a matter of matching all of the nets. Because size is an important factor, objects were placed in an effort to maximize area effieciency. The size of each component was considered to ensure that everything would fit on the board, with some extra room to ensure fit and soldering ease.
+
+![PCB Layout](images/whole-pcb.png)
+*Figure 3: The PCB Layout*
