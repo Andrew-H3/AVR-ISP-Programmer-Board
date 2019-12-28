@@ -20,6 +20,9 @@ The KiCad printed circuit board software suite will be used to design the circui
 ### Equipment
 A soldering iron (and solder) is required to build to board.
 
+### Components
+Components will be ordered from Digi-Key, and can be found in the Bill of Materials.
+
 ### Manufacturing
 OSH Park will be used to manufacture the board.
 
